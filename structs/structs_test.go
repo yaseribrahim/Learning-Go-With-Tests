@@ -34,7 +34,6 @@ func TestArea(t *testing.T) {
 				t.Errorf("%#v got %g want %g", tt.shape, got, tt.hasArea)
 			}
 		})
-
 	}
 
 }
